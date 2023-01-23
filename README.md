@@ -1,2 +1,3 @@
 # acartera7.github.io
-Code Sample Website
+
+![alt text](/normalize_function.PNG "normalize_function")
