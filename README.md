@@ -1,6 +1,5 @@
-# Andrei Cartera
-## Audio Programmer | Gameplay Programmer 
- <br>
+# Andrei Cartera -- Audio Programmer | Gameplay Programmer 
+
 
 The following is a page consisting of collections of code samples used as a reference for whomever may be concered.
 
