@@ -3,7 +3,7 @@
 
 # Table of Contents
 Audio [Jump to Audio Section](#Audio) <br>
-General [Jump to General Section](#General_Programming) <br>
+General [Jump to General Section](#General-Programming) <br>
 <br>
 <br>
 <br>
