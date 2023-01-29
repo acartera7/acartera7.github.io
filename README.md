@@ -1,9 +1,12 @@
 # Andrei Cartera
  <br>
 
+This page is a collection of code samples used as a reference 
+
 # Table of Contents
-Audio [Jump to Audio Section](#Audio) <br>
-General [Jump to General Section](#General-Programming) <br>
+### [General Programming](#General-Programming) <br>
+### [Audio](#Audio) <br>
+### [C++ STL](#C++-STL) <br>
 <br>
 <br>
 <br>
@@ -19,14 +22,7 @@ General [Jump to General Section](#General-Programming) <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 # Audio 
 
@@ -58,4 +54,22 @@ General [Jump to General Section](#General-Programming) <br>
 
 # General Programming
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+
+# C++ STL
