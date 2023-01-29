@@ -1,12 +1,13 @@
 # Andrei Cartera
+## Audio Programmer | Gameplay Programmer 
  <br>
 
-This page is a collection of code samples used as a reference 
+The following is a page consisting of collections of code samples used as a reference for whomever may be concered.
 
 # Table of Contents
-### 1) [General Programming ](#General-Programming)  
-### 2) [Audio ](#Audio)  
-### 3) [C++ STL ](#C++-STL)  
+### 1) [General Programming](#g)  
+### 2) [Audio](#a)  
+### 3) [C++ STL](#c)  
 <br>
 <br>
 <br>
@@ -23,11 +24,30 @@ This page is a collection of code samples used as a reference
 <br>
 <br>
 
-<a name="Audio"> 
+# <a name="g"> </a> General Programming
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<a name="a"> </a>
 
 # Audio 
 
-</a>
 
 ![alt text](/normalize_function.PNG "normalize_function")
 
@@ -55,24 +75,6 @@ This page is a collection of code samples used as a reference
 <br>
 <br>
 
-# General Programming
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+<a name="c"> </a>
 
 # C++ STL
