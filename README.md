@@ -23,8 +23,11 @@ This page is a collection of code samples used as a reference
 <br>
 <br>
 
+<a name="Audio"> 
 
 # Audio 
+
+</a>
 
 ![alt text](/normalize_function.PNG "normalize_function")
 
