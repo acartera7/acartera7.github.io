@@ -4,9 +4,9 @@
 This page is a collection of code samples used as a reference 
 
 # Table of Contents
-### 1) [General Programming](#General-Programming)  
-### 2) [Audio](#Audio)  
-### 3) [C++ STL](#C++-STL)  
+### 1) [General Programming ](#General-Programming)  
+### 2) [Audio ](#Audio)  
+### 3) [C++ STL ](#C++-STL)  
 <br>
 <br>
 <br>
