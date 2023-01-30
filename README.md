@@ -2,7 +2,7 @@
 
 The following is a page consisting of collections of code samples used as a reference for academic purposes or for whomever may be concered. Everything contained in this page are from parts of academic projects.
 
-<h2 style="color:red">*This page is a work in progress and doesn't contain samples of every piece of code written by the author*</h2>
+<h2 style="color:red">*This page is a work in progress and therefore is missing some code samples *</h2>
 
 
 <br>
