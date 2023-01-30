@@ -3,8 +3,8 @@
 The following is a page consisting of collections of code samples used as a reference for whomever may be concered.
 
 ## Table of Contents
-### 1) [General Programming](#g)  
-### 2) [Audio](#a)  
+### 1) [General Programming](#general)  
+### 2) [Audio](#audio)  
 ### 3) [C++ STL](#c)  
 <br>
 <br>
@@ -22,7 +22,7 @@ The following is a page consisting of collections of code samples used as a refe
 <br>
 <br>
 
-# <a name="g"> </a> General Programming
+# <a name="general"> </a> General Programming
 
 <br>
 <br>
@@ -44,7 +44,7 @@ The following is a page consisting of collections of code samples used as a refe
 
 
 
-# <a name="a"> </a> Audio 
+# <a name="audio"> </a> Audio 
 
 
 ![alt text](/normalize_function.PNG "normalize_function")
