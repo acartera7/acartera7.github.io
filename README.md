@@ -17,10 +17,16 @@ The following is a page consisting of collections of code samples used as a refe
 
 <a name="general"> </a> General Programming
 ===================================
-This following section is comporised of a chronological assortment of functions and code blocks in both C and C++ of general programming paradigms.
+This following section is comporised of an assortment of functions and code blocks written in both C and C++ of general programming paradigms. The samples are sorted in semi-chronological order, starting from the most recently written to older examples. 
 
 ### Spellcheck (C)
-![Spellcheck Function](/spellcheck.JPG "Spellcheck Function")
+![Spellcheck Function](/Spellcheck.PNG "Spellcheck Function") <br>
+
+### Point Class (C++)
+![Point Class](/Point_class.PNG "Point Class") <br>
+
+### List Class and Class Template (C++)
+![List Class](/List_class.PNG "List Class") ![List Class Template](/List_TClass.PNG "List Class Template") <br>
 <br> <br>
 
 <a name="audio"> </a> Audio 
@@ -31,7 +37,7 @@ This following section is comprised of multiple examples of functions and code b
 This is an example of a simple normalization function that takes an AudioData Class "ad" that contains audio data extracted from a .WAV file.
 The data was stored in a std::vector but was only acessible thorugh class getters AudioData::sample() which returns a float, and AudioData::data() which returns a pointer to a float. Had the vector been accessible it would've been more efficient to use std::max_range() for finding the maximum sample.
 
-![Normalize Function](/normalize_function.PNG "Normalize Function")
+![Normalize Function](/normalize_function.PNG "Normalize Function") <br>
 
 <br> <br>
 
