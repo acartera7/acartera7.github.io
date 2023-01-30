@@ -1,8 +1,9 @@
 # Andrei Cartera -- Audio Programmer | Gameplay Programmer 
 
+<span style="color:red">**This page is a work in progress and therefore is missing some code samples*</span>
+
 The following is a page consisting of collections of code samples used as a reference for academic purposes or for whomever may be concered. Everything contained in this page are from parts of academic projects.
 
-<h2 style="color:red">*This page is a work in progress and therefore is missing some code samples *</h2>
 
 
 <br>
