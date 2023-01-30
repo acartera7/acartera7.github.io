@@ -26,6 +26,7 @@ This is an example of a simple normalization function that takes an abstract Aud
 The data was stored in a std::vector but was only acessible thorugh class getters AudioData::sample() which returns a float, and AudioData::data() which returns a pointer to a float. Had the vector been accessible it would've been more efficient to use std::max_range() for finding the maximum sample.
 
 ![normalize function](/normalize_function.PNG "normalize_function")
+<img src="normalize_function.PNG" alt="normalize function" width="200">
 
 <br> <br>
 
