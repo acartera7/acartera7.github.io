@@ -11,15 +11,17 @@ The following is a page consisting of collections of code samples used as a refe
 
 <br> <br>
 
-# <a name="general"> </a> General Programming
+<a name="general"> </a> General Programming
+===================================
 This following section is comporised of a chronological assortment of functions and code blocks in both C and C++ of general programming paradigms.
 
 <br> <br>
 
-# <a name="audio"> </a> Audio 
+<a name="audio"> </a> Audio 
+===================================
 This following section is comprised of multiple examples of functions and code blocks which are written primarily for Audio in video games.
 
-### Normalize
+### Normalize (C++)
 This is an example of a simple normalization function that takes an abstract AudioData class "ad" that contains data extracted from a .WAV file.
 The data was stored in a std::vector but was only acessible thorugh class getters AudioData::sample() which returns a float, and AudioData::data() which returns a pointer to a float. Had the vector been accessible it would've been more efficient to use std::max_range() for finding the maximum sample.
 
@@ -30,4 +32,6 @@ The data was stored in a std::vector but was only acessible thorugh class getter
 
 
 
-# <a name="c"> </a> C++ STL
+<a name="c"> </a> C++ STL
+===================================
+This following section is comprised of multiple examples of functions and code blocks that demonstrate the use of C++'s Standard Template Library (STL). 
