@@ -1,6 +1,6 @@
 # Andrei Cartera -- Audio Programmer | Gameplay Programmer 
 
-The following is a page consisting of collections of code samples used as a reference for academic purposes or for whomever may be concered.
+The following is a page consisting of collections of code samples used as a reference for academic purposes or for whomever may be concered. Everything contained in this page are from parts of academic projects.
 
 <br>
 
@@ -12,40 +12,21 @@ The following is a page consisting of collections of code samples used as a refe
 <br> <br>
 
 # <a name="general"> </a> General Programming
+This following section is comporised of a chronological assortment of functions and code blocks in both C and C++ of general programming paradigms.
 
 <br> <br>
 
 # <a name="audio"> </a> Audio 
+This following section is comprised of multiple examples of functions and code blocks which are written primarily for Audio in video games.
 
+### Normalize
 This is an example of a simple normalization function that takes an abstract AudioData class "ad" that contains data extracted from a .WAV file.
 The data was stored in a std::vector but was only acessible thorugh class getters AudioData::sample() which returns a float, and AudioData::data() which returns a pointer to a float. Had the vector been accessible it would've been more efficient to use std::max_range() for finding the maximum sample.
 
-This was part of a larger academic progect
-![alt text](/normalize_function.PNG "normalize_function")
+![normalize function](/normalize_function.PNG "normalize_function")
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br> <br>
+
 
 
 
