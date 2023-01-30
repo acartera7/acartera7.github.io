@@ -19,14 +19,15 @@ The following is a page consisting of collections of code samples used as a refe
 ===================================
 This following section is comporised of an assortment of functions and code blocks written in both C and C++ of general programming paradigms. The samples are sorted in semi-chronological order, starting from the most recently written to older examples. 
 
-### Spellcheck (C)
-![Spellcheck Function](/Spellcheck.PNG "Spellcheck Function") <br>
+### List Class and Class Template (C++)
+![List Class](/List_class.PNG "List Class") ![List Class Template](/List_TClass.PNG "List Class Template") <br>
 
 ### Point Class (C++)
 ![Point Class](/Point_class.PNG "Point Class") <br>
 
-### List Class and Class Template (C++)
-![List Class](/List_class.PNG "List Class") ![List Class Template](/List_TClass.PNG "List Class Template") <br>
+### Spellcheck (C)
+![Spellcheck Function](/Spellcheck.PNG "Spellcheck Function") <br>
+
 <br> <br>
 
 <a name="audio"> </a> Audio 
