@@ -1,0 +1,56 @@
+#ProjectPage {
+  min-height: 80vh;
+  height: 80vh;
+  display: flex;
+  align-items: top;
+  background: $white-color;
+  font-weight: 400;
+  color: $dark-blue-text;
+  padding: 10rem 5.6rem;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  line-height: 1.2;
+  animation: hidden 1000ms linear forwards;
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .projectpage-title {
+    font-size: 10rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left
+  }
+
+}
+
+.PPcontainer {
+  width: 100%;
+  padding: 0 1.5rem;
+  margin-top: auto;
+  max-width: 1140px;
+  @include respond(tab-land) {
+    max-width: 960px;
+    width: 100%;
+  }
+  @include respond(tab-port) {
+    max-width: 720px;
+    width: 100%;
+    justify-content: center;
+  }
+  @include respond(tab-port-sm) {
+    max-width: 720px;
+    width: 100%;
+  }
+  @include respond(phone) {
+    max-width: 540px;
+    width: 100%;
+  }
+}

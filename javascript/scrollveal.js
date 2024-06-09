@@ -73,3 +73,17 @@ ScrollReveal().reveal(".fa", {
   delay: 500,
   interval: 100,
 });
+
+/* Project Pages*/
+
+ScrollReveal().reveal(".projectpage-title", {
+  ...defaultProps,
+  delay: 200,
+  distance: "0px",
+});
+
+ScrollReveal().reveal(".projectpage-title", {
+  ...defaultProps,
+  delay: 500,
+  origin: window.innerWidth > 768 ? "left" : "bottom",
+});
