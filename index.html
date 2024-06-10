@@ -27,7 +27,7 @@ Have fun creating your portfolio on this template!!! -->
     <meta name="description" content="Andrei Cartera | Audio Programmer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/Designer2-2.png" />
+    <link rel="icon" type="image/png" href="./assets/Designer4.png" />
 
     <!-- Add your primary-theme color for the value of content -->
     <meta name="theme-color" content="#36d1dc" />
@@ -84,6 +84,20 @@ Have fun creating your portfolio on this template!!! -->
       src="./javascript/scrollveal.js"
     ></script>
 
+    <script 
+      defer 
+      type="text/javascript"
+      src="./javascript/navbarscrollhighlight.js"
+    ></script>
+
+    <script>
+      // Event listener for DOMContentLoaded to set initial highlight
+      document.addEventListener('DOMContentLoaded', (event) => {
+        highlightActiveButton();
+      });
+
+      
+    </script>
     <!-- Remove Google Analytics once you have your portfolio website set-up -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--
@@ -104,9 +118,22 @@ Have fun creating your portfolio on this template!!! -->
           <!-- End of Google Analytics -->
   </head>
   <body>
+
+    <!-- NavBar Section-->
+    <nav>
+      <label class="logo">Andrei Cartera</label>
+      <ul>
+        <li><a class="navbar-button active" onclick="addActive(this)" href="#">Home</a></li>
+        <li><a class="navbar-button"  onclick="addActive(this)"  href="#about">About</a></li>
+        <li><a class="navbar-button"  onclick="addActive(this)"  href="#projects">Projects</a></li>
+        <li><a class="navbar-button"  onclick="addActive(this)"  href="#resume">Resume</a></li>
+        <li><a class="navbar-button"  onclick="addActive(this)"  href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
+     
+    <section id="hero">
+      <div class="container">
         <h1 class="hero-title">
           Hi, my name is <span class="text-color-main name">Andrei</span>
           <br/>
@@ -115,11 +142,11 @@ Have fun creating your portfolio on this template!!! -->
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
         </p>
-      </section>
+      </div>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
       ></a>
-    </div>
+    </section>
     <!-- /END Hero Section -->
 
     <!-- About Section -->
@@ -291,6 +318,33 @@ Have fun creating your portfolio on this template!!! -->
     </section>
     <!-- End Projects Section -->
 
+    <!-- Resume Section-->
+    <section id="resume">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Resume Section-->
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
