@@ -18,7 +18,7 @@ function addActive(element) {
 function highlightActiveButton() {
   let index = sections.length;
 
-  while(--index && window.scrollY < sections[index].offsetTop) {}
+  while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
 
   removeActive();
   navbarButtons[index].classList.add('active');

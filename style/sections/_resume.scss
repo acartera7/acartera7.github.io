@@ -16,7 +16,7 @@
     clip-path: none;
   }
 
-  .about-wrapper {
+  .resume-wrapper {
     grid-template-columns: 1fr 1fr;
     @include respond(phone) {
       padding-bottom: 5rem;
