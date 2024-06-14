@@ -41,6 +41,17 @@ a.active,a:hover{
   transition: .5s;
 }
 
+.hamburger {
+  display: none;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+  text-align: right;
+  padding-left: 30px;
+}
+
 @media (max-width: 908px) {
   nav{
     height: 160px;
@@ -49,24 +60,31 @@ a.active,a:hover{
 
 @include respond(phone) {
   nav {
-    height: 160px;
+    height: 80px;
   }
   label.logo{
     position: absolute;
     font-size: 30px;
   }
   nav ul{
-    position: absolute;
-    float: left;
+    padding-left: 100%;
+    display: none;
+    //display: grid;
+    float: right;
     margin-left: 20px;
     }
     nav ul li {
-    display: block;
+    text-align: right;
+    float: right;
+    display: grid;
     line-height: 60px;
   }
     nav ul li a{
     color: red;
     //font-size: 16px;
+  }
+  .hamburger{
+    display: block;
   }
 }
 
