@@ -69,7 +69,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.css" />
-
+      
     <!-- FontAwesome Icons link -->
     <link
       rel="stylesheet"
@@ -121,8 +121,14 @@ Have fun creating your portfolio on this template!!! -->
   <body>
 
     <!-- NavBar Section-->
-    <nav>
+    <header class="top">
       <label class="logo">Andrei Cartera</label>
+        <div class="hamburger ">
+          <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <nav class="menu">
       <ul>
         <li><a class="navbar-button active" onclick="addActive(this)" href="#">Home</a></li>
         <li><a class="navbar-button"  onclick="addActive(this)"  href="#about">About</a></li>
@@ -130,9 +136,7 @@ Have fun creating your portfolio on this template!!! -->
         <li><a class="navbar-button"  onclick="addActive(this)"  href="#resume">Resume</a></li>
         <li><a class="navbar-button"  onclick="addActive(this)"  href="#contact">Contact</a></li>
       </ul>
-        <div class="hamburger">
-          <i class="fa fa-bars"></i>
-        </div>
+        
     </nav>
     <!-- Hero Section -->
      
@@ -181,7 +185,7 @@ Have fun creating your portfolio on this template!!! -->
               delectus, iusto culpa rerum?
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="#resume" class="cta-btn cta-btn--resume">View Resume</a>
             </span>
           </div>
         </div>

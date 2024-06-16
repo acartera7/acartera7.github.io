@@ -9,41 +9,41 @@ const defaultProps = {
 // Hero Section
 ScrollReveal().reveal(".hero-title", {
   ...defaultProps,
-  delay: 500,
+  delay: 200,
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
 ScrollReveal().reveal(".name", {
   ...defaultProps,
   distance: "0px",
-  delay: 700,
+  delay: 400,
   scale: 0,
 });
 ScrollReveal().reveal(".hero-cta", {
   ...defaultProps,
-  delay: 1200,
+  delay: 800,
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
 ScrollReveal().reveal(".scroll-down-link", {
   ...defaultProps,
-  delay: 2000,
+  delay: 1000,
   origin: "top",
 });
 
 /* About Section */
 ScrollReveal().reveal(".section-title", {
   ...defaultProps,
-  delay: 400,
+  delay: 100,
   distance: "0px",
 });
 ScrollReveal().reveal(".about-wrapper__image", {
   ...defaultProps,
-  delay: 600,
+  delay: 200,
   scale: 0.5,
 });
 
 ScrollReveal().reveal(".about-wrapper__info", {
   ...defaultProps,
-  delay: 700,
+  delay: 400,
   distance: "100px",
   origin: window.innerWidth > 768 ? "left" : "top",
 });
@@ -51,13 +51,13 @@ ScrollReveal().reveal(".about-wrapper__info", {
 /* Projects Section */
 ScrollReveal().reveal(".project-wrapper__text", {
   ...defaultProps,
-  delay: 600,
+  delay: 400,
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
 
 ScrollReveal().reveal(".project-wrapper__image", {
   ...defaultProps,
-  delay: 600,
+  delay: 200,
   scale: 0.9,
   origin: window.innerWidth > 768 ? "right" : "bottom",
 });
@@ -65,14 +65,20 @@ ScrollReveal().reveal(".project-wrapper__image", {
 /* Contact Section */
 ScrollReveal().reveal(".contact-wrapper", {
   ...defaultProps,
-  delay: 600,
+  delay: 200,
 });
 
+ScrollReveal().reveal(".resume-wrapper", {
+  ...defaultProps,
+  delay: 200,
+});
+/*
 ScrollReveal().reveal(".fa", {
   ...defaultProps,
   delay: 500,
   interval: 100,
-});
+  });
+*/
 
 /* Project Pages*/
 
